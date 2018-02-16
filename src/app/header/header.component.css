@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+.navbar-default {
+    background-image: linear-gradient(to right bottom, #c22bd8, #ab42e1, #9352e8, #785dec, #5966ed);
+    color: #ccc;
+    border-radius: 0;
+    border-bottom: 0;
+    border-top: 0;
+    margin-right: 0;
+}
+
+.navbar-nav li a {
+    color: #ccc;
+}
+.navbar-header a {
+    color: #ccc;
+    font-family: 'Courgette', cursive;
+}
