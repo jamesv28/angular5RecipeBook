@@ -9,7 +9,7 @@ export class RecipeListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
   recipes: Recipe[] = [
     new Recipe('MaPo Doufu','Szechuan style tofu dish', 'https://chinasichuanfood.com/wp-content/uploads/2014/09/mapo-tofu-steps-9.jpg'),
-    new Recipe('MaPo Doufu','this is a recipe description', 'https://chinasichuanfood.com/wp-content/uploads/2014/09/mapo-tofu-steps-9.jpg')
+    new Recipe('Beef with Broccoli','Beef with Broccoli', 'https://chinasichuanfood.com/wp-content/uploads/2014/09/mapo-tofu-steps-9.jpg')
   ]
   constructor() { }
 
